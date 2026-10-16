@@ -1,0 +1,10 @@
+{
+  "producto": {
+    "datos": [
+      "Teclado Mecánico",
+      49.99,
+      true,
+      null
+    ]
+  }
+}
