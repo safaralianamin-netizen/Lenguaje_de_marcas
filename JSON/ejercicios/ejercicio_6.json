@@ -1,5 +1,7 @@
 {
     "nombre": "carlos",
+    "apellidos": "gonzalez",
+    "edad": 25,
     "aficiones": [
         "futbal",
         "musica",
