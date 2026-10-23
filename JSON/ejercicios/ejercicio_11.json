@@ -1,0 +1,34 @@
+{
+  "peliculas": [
+    {
+      "titulo": "Inception",
+      "director": "Christopher Nolan",
+      "año": 2010,
+      "generos": [
+        "Acción",
+        "Ciencia ficción",
+        "Misterio"
+      ]
+    },
+    {
+      "titulo": "The Dark Knight",
+      "director": "Christopher Nolan",
+      "año": 2008,
+      "generos": [
+        "Acción",
+        "Crimen",
+        "Drama"
+      ]
+    },
+    {
+      "titulo": "Interstellar",
+      "director": "Christopher Nolan",
+      "año": 2014,
+      "generos": [
+        "Aventura",
+        "Drama",
+        "Ciencia ficción"
+      ]
+    }
+  ]
+}
