@@ -1,0 +1,126 @@
+{
+  "tienda": {
+    "nombre": "TechZone Online",
+    "abierta": true,
+    "contacto": {
+      "telefono": "+34 960 000 111",
+      "email": "contacto@techzone.com"
+    },
+    "categorias": [
+      {
+        "id": 1,
+        "nombre": "Ordenadores",
+        "productos": [
+          {
+            "sku": "ORD-001",
+            "nombre": "Portátil Gaming Pro",
+            "precio": 1299.99,
+            "stock": 15,
+            "etiquetas": [
+              "oferta",
+              "gaming"
+            ],
+            "dimensiones": {
+              "alto": 2.5,
+              "ancho": 38.0,
+              "fondo": 26.0
+            },
+            "disponible": true
+          },
+          {
+            "sku": "ORD-002",
+            "nombre": "Mini PC Oficina",
+            "precio": 450.50,
+            "stock": 8,
+            "etiquetas": [
+              "oficina",
+              "compacto"
+            ],
+            "dimensiones": {
+              "alto": 10.0,
+              "ancho": 12.0,
+              "fondo": 12.0
+            },
+            "disponible": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Periféricos",
+        "productos": [
+          {
+            "sku": "PER-001",
+            "nombre": "Teclado Mecánico RGB",
+            "precio": 89.90,
+            "stock": 30,
+            "etiquetas": [
+              "accesorios",
+              "rgb"
+            ],
+            "dimensiones": {
+              "alto": 4.0,
+              "ancho": 44.0,
+              "fondo": 13.0
+            },
+            "disponible": true
+          },
+          {
+            "sku": "PER-002",
+            "nombre": "Ratón Inalámbrico",
+            "precio": 29.99,
+            "stock": 0,
+            "etiquetas": [
+              "ergonómico",
+              "inalámbrico"
+            ],
+            "dimensiones": {
+              "alto": 4.5,
+              "ancho": 7.0,
+              "fondo": 11.5
+            },
+            "disponible": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Audio",
+        "productos": [
+          {
+            "sku": "AUD-001",
+            "nombre": "Auriculares Bluetooth",
+            "precio": 59.95,
+            "stock": 50,
+            "etiquetas": [
+              "audio",
+              "bluetooth"
+            ],
+            "dimensiones": {
+              "alto": 18.0,
+              "ancho": 16.0,
+              "fondo": 8.0
+            },
+            "disponible": true
+          },
+          {
+            "sku": "AUD-002",
+            "nombre": "Altavoz Portátil",
+            "precio": 39.99,
+            "stock": 20,
+            "etiquetas": [
+              "audio",
+              "resistente al agua"
+            ],
+            "dimensiones": {
+              "alto": 7.0,
+              "ancho": 18.0,
+              "fondo": 7.0
+            },
+            "disponible": true
+          }
+        ]
+      }
+    ]
+  }
+}
