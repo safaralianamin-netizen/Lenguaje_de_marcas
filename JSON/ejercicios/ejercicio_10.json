@@ -1,0 +1,26 @@
+{
+  "tienda": {
+    "nombre": "Tech Store",
+    "direccion": {
+      "calle": "Avenida Colón 15",
+      "ciudad": "Valencia"
+    },
+    "productos": [
+      {
+        "nombre": "Ratón Gaming",
+        "precio": 25.99,
+        "disponible": true
+      },
+      {
+        "nombre": "Teclado Mecánico",
+        "precio": 45.50,
+        "disponible": true
+      },
+      {
+        "nombre": "Monitor 24 pulgadas",
+        "precio": 120.00,
+        "disponible": false
+      }
+    ]
+  }
+}
