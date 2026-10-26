@@ -1,0 +1,30 @@
+{
+  "tienda": {
+    "productos": [
+      {
+        "nombre": "Portátil",
+        "precio": 799.99,
+        "categoria": "Electrónica",
+        "disponible": true
+      },
+      {
+        "nombre": "Auriculares inalámbricos",
+        "precio": 49.90,
+        "categoria": "Accesorios",
+        "disponible": true
+      },
+      {
+        "nombre": "Mochila escolar",
+        "precio": 25.00,
+        "categoria": "Equipaje",
+        "disponible": false
+      },
+      {
+        "nombre": "Silla de oficina",
+        "precio": 120.50,
+        "categoria": "Mobiliario",
+        "disponible": true
+      }
+    ]
+  }
+}
