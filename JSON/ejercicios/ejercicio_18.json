@@ -1,0 +1,133 @@
+{
+  "redSocial": {
+    "usuarios": [
+      {
+        "id": 1,
+        "usuario": "carlos_dev",
+        "perfil": {
+          "bio": "Desarrollador Web y apasionado del código.",
+          "ubicacion": "Valencia",
+          "verificado": true
+        },
+        "siguiendo": [2, 3]
+      },
+      {
+        "id": 2,
+        "usuario": "lucia_tech",
+        "perfil": {
+          "bio": "Diseñadora UI/UX y gamer.",
+          "ubicacion": "Madrid",
+          "verificado": false
+        },
+        "siguiendo": [1]
+      },
+      {
+        "id": 3,
+        "usuario": "david_code",
+        "perfil": {
+          "bio": "Estudiante de ASIR en Digitech.",
+          "ubicacion": "Barcelona",
+          "verificado": true
+        },
+        "siguiendo": [1, 2]
+      }
+    ],
+    "publicaciones": [
+      {
+        "id": 101,
+        "autorId": 1,
+        "texto": "¡Hoy he terminado de crear una estructura JSON compleja!",
+        "fecha": "2026-10-09T14:30:00",
+        "reacciones": {
+          "meGusta": 15,
+          "risa": 2,
+          "sorpresa": 4
+        },
+        "hashtags": [
+          "json",
+          "programacion",
+          "web"
+        ]
+      },
+      {
+        "id": 102,
+        "autorId": 2,
+        "texto": "Diseñando una nueva interfaz para la app de la academia.",
+        "fecha": "2026-10-10T09:15:00",
+        "reacciones": {
+          "meGusta": 8,
+          "risa": 0,
+          "sorpresa": 1
+        },
+        "hashtags": [
+          "uiux",
+          "design"
+        ]
+      },
+      {
+        "id": 103,
+        "autorId": 1,
+        "texto": "Buen fin de semana a todos los que siguen estudiando.",
+        "fecha": "2026-10-11T18:00:00",
+        "reacciones": {
+          "meGusta": 25,
+          "risa": 5,
+          "sorpresa": 0
+        },
+        "hashtags": []
+      },
+      {
+        "id": 104,
+        "autorId": 3,
+        "texto": "Configurando el servidor Linux en clase de hoy.",
+        "fecha": "2026-10-12T11:45:00",
+        "reacciones": {
+          "meGusta": 10,
+          "risa": 1,
+          "sorpresa": 3
+        },
+        "hashtags": [
+          "linux",
+          "sysadmin"
+        ]
+      }
+    ],
+    "comentarios": [
+      {
+        "id": 1001,
+        "publicacionId": 101,
+        "autorId": 2,
+        "texto": "¡Buen trabajo Carlos!",
+        "editado": false
+      },
+      {
+        "id": 1002,
+        "publicacionId": 101,
+        "autorId": 3,
+        "texto": "Ha quedado muy bien estructurado.",
+        "editado": false
+      },
+      {
+        "id": 1003,
+        "publicacionId": 102,
+        "autorId": 1,
+        "texto": "Me encantan los colores que has usado.",
+        "editado": true
+      },
+      {
+        "id": 1004,
+        "publicacionId": 103,
+        "autorId": 2,
+        "texto": "¡Igualmente, a descansar!",
+        "editado": false
+      },
+      {
+        "id": 1005,
+        "publicacionId": 104,
+        "autorId": 1,
+        "texto": "Si necesitas ayuda con los comandos me avisas.",
+        "editado": false
+      }
+    ]
+  }
+}
