@@ -1,0 +1,206 @@
+{
+  "respuestaCorrecta": {
+    "status": 200,
+    "ok": true,
+    "meta": {
+      "pagina": 1,
+      "porPagina": 4,
+      "totalResultados": 4,
+      "enlaces": {
+        "anterior": null,
+        "siguiente": "https://api.streaming.com/v1/series?page=2"
+      },
+      "generadoEn": "2026-10-29T18:00:00Z"
+    },
+    "data": [
+      {
+        "id": 1,
+        "titulo": "Arrow",
+        "genero": [
+          "Acción",
+          "Aventura",
+          "Drama"
+        ],
+        "estreno": 2012,
+        "valoracion": {
+          "media": 7.5,
+          "votos": 125000
+        },
+        "reparto": [
+          {
+            "actor": "Stephen Amell",
+            "personaje": "Oliver Queen",
+            "principal": true
+          },
+          {
+            "actor": "Emily Bett Rickards",
+            "personaje": "Felicity Smoak",
+            "principal": false
+          }
+        ],
+        "temporadas": [
+          {
+            "numero": 1,
+            "episodios": [
+              {
+                "titulo": "Pilot",
+                "duracionMin": 42
+              },
+              {
+                "titulo": "Honor Thy Father",
+                "duracionMin": 43
+              }
+            ]
+          }
+        ],
+        "disponibleEn": {
+          "ES": true,
+          "MX": true,
+          "US": true
+        },
+        "trailer": {
+          "url": "https://trailer.streaming.com/arrow.mp4",
+          "duracionSeg": 135
+        }
+      },
+      {
+        "id": 2,
+        "titulo": "The Flash",
+        "genero": [
+          "Acción",
+          "Ciencia ficción"
+        ],
+        "estreno": 2014,
+        "valoracion": {
+          "media": 7.6,
+          "votos": 98000
+        },
+        "reparto": [
+          {
+            "actor": "Grant Gustin",
+            "personaje": "Barry Allen",
+            "principal": true
+          }
+        ],
+        "temporadas": [
+          {
+            "numero": 1,
+            "episodios": [
+              {
+                "titulo": "City of Heroes",
+                "duracionMin": 44
+              }
+            ]
+          }
+        ],
+        "disponibleEn": {
+          "ES": true,
+          "MX": false,
+          "US": true
+        },
+        "trailer": null
+      },
+      {
+        "id": 3,
+        "titulo": "Stranger Things",
+        "genero": [
+          "Drama",
+          "Fantasía",
+          "Misterio"
+        ],
+        "estreno": 2016,
+        "valoracion": {
+          "media": 8.7,
+          "votos": 210000
+        },
+        "reparto": [
+          {
+            "actor": "Millie Bobby Brown",
+            "personaje": "Eleven",
+            "principal": true
+          }
+        ],
+        "temporadas": [
+          {
+            "numero": 1,
+            "episodios": [
+              {
+                "titulo": "Chapter One: The Vanishing of Will Byers",
+                "duracionMin": 48
+              },
+              {
+                "titulo": "Chapter Two: The Weirdo on Maple Street",
+                "duracionMin": 55
+              }
+            ]
+          }
+        ],
+        "disponibleEn": {
+          "ES": true,
+          "MX": true,
+          "US": true
+        },
+        "trailer": {
+          "url": "https://trailer.streaming.com/strangerthings.mp4",
+          "duracionSeg": 150
+        }
+      },
+      {
+        "id": 4,
+        "titulo": "Breaking Bad",
+        "genero": [
+          "Crimen",
+          "Drama",
+          "Thriller"
+        ],
+        "estreno": 2008,
+        "valoracion": {
+          "media": 9.5,
+          "votos": 350000
+        },
+        "reparto": [
+          {
+            "actor": "Bryan Cranston",
+            "personaje": "Walter White",
+            "principal": true
+          }
+        ],
+        "temporadas": [
+          {
+            "numero": 1,
+            "episodios": [
+              {
+                "titulo": "Pilot",
+                "duracionMin": 58
+              }
+            ]
+          }
+        ],
+        "disponibleEn": {
+          "ES": true,
+          "MX": true,
+          "US": false
+        },
+        "trailer": null
+      }
+    ],
+    "errores": []
+  },
+  "respuestaError": {
+    "status": 404,
+    "ok": false,
+    "data": null,
+    "errores": [
+      {
+        "codigo": "ERR_NOT_FOUND",
+        "mensaje": "El recurso solicitado no existe en el servidor.",
+        "campo": "id"
+      },
+      {
+        "codigo": "ERR_INVALID_PAGE",
+        "mensaje": "La página solicitada supera el número total de páginas disponibles.",
+        "campo": "pagina"
+      }
+    ]
+  }
+}
