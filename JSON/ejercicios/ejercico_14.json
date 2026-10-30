@@ -1,0 +1,22 @@
+{
+  "videojuegos": [
+    {
+      "titulo": "The Witcher 3",
+      "genero": "RPG",
+      "precio": 39.99,
+      "multijugador": false
+    },
+    {
+      "titulo": "FIFA 24",
+      "genero": "Deportes",
+      "precio": 69.99,
+      "multijugador": true
+    },
+    {
+      "titulo": "Minecraft",
+      "genero": "Supervivencia",
+      "precio": 29.99,
+      "multijugador": true
+    }
+  ]
+}

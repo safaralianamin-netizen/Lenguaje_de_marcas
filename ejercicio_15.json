@@ -1,0 +1,49 @@
+{
+  "pedidos": [
+    {
+      "numero": 101,
+      "cliente": {
+        "nombre": "Laura Gómez",
+        "email": "laura@example.com",
+        "direccion": {
+          "calle": "Calle Mayor 10",
+          "ciudad": "Valencia",
+          "codigoPostal": "46001"
+        }
+      },
+      "producto": "Portátil",
+      "cantidad": 1,
+      "entregado": true
+    },
+    {
+      "numero": 102,
+      "cliente": {
+        "nombre": "Carlos Ruiz",
+        "email": "carlos@example.com",
+        "direccion": {
+          "calle": "Avenida Colón 25",
+          "ciudad": "Madrid",
+          "codigoPostal": "28001"
+        }
+      },
+      "producto": "Teclado Mecánico",
+      "cantidad": 2,
+      "entregado": false
+    },
+    {
+      "numero": 103,
+      "cliente": {
+        "nombre": "Ana Martínez",
+        "email": "ana@example.com",
+        "direccion": {
+          "calle": "Gran Vía 5",
+          "ciudad": "Barcelona",
+          "codigoPostal": "08001"
+        }
+      },
+      "producto": "Monitor 27 pulgadas",
+      "cantidad": 1,
+      "entregado": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+```json
+{
+  "nombre": "Carlos",
+  "edad": 30,
+  "esEstudiante": false,
+  "telefono": null
+}
+
+
+"Carlos" -> String (Secuencia de caracteres de texto encerrada entre comillas dobles).
+
+30 -> Number (Dato numérico, ya sea entero o con decimales).
+
+false -> Boolean (Valor lógico binario: representa verdadero o falso).
+
+null -> Null (Representa explícitamente un valor vacío o inexistente).

@@ -1,0 +1,151 @@
+{
+  "clinica": {
+    "nombre": "Clínica Salud & Vida",
+    "direccion": {
+      "calle": "Avenida de Aragón 20",
+      "ciudad": "Valencia",
+      "codigoPostal": "46021"
+    },
+    "configuracion": {
+      "horarioApertura": "08:00",
+      "horarioCierre": "20:00",
+      "duracionCitaMinutos": 30
+    },
+    "medicos": [
+      {
+        "id": 1,
+        "nombre": "Dra. Carmen Ortiz",
+        "especialidad": "Medicina General",
+        "colegiado": "464612345",
+        "consultas": ["Lunes", "Miércoles", "Viernes"]
+      },
+      {
+        "id": 2,
+        "nombre": "Dr. Javier Sanchis",
+        "especialidad": "Traumatología",
+        "colegiado": "464654321",
+        "consultas": ["Martes", "Jueves"]
+      },
+      {
+        "id": 3,
+        "nombre": "Dra. Laura Benítez",
+        "especialidad": "Dermatología",
+        "colegiado": "464698765",
+        "consultas": ["Lunes", "Martes", "Jueves"]
+      }
+    ],
+    "pacientes": [
+      {
+        "id": 101,
+        "nombre": "Carlos Gómez",
+        "fechaNacimiento": "1990-05-14",
+        "seguro": {
+          "compania": "Adeslas",
+          "numeroPoliza": "AD-998877"
+        },
+        "alergias": ["Penicilina"],
+        "historial": [
+          {
+            "fecha": "2026-01-10",
+            "diagnostico": "Infección respiratoria leve",
+            "tratamiento": {
+              "medicamento": "Amoxicilina",
+              "dosis": "500mg",
+              "duracionDias": 7
+            }
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "nombre": "María Navarro",
+        "fechaNacimiento": "1985-11-22",
+        "seguro": null,
+        "alergias": [],
+        "historial": [
+          {
+            "fecha": "2026-02-15",
+            "diagnostico": "Esguince de tobillo",
+            "tratamiento": {
+              "medicamento": "Ibuprofeno",
+              "dosis": "600mg",
+              "duracionDias": 5
+            }
+          },
+          {
+            "fecha": "2026-03-01",
+            "diagnostico": "Dermatitis de contacto",
+            "tratamiento": {
+              "medicamento": "Corticoide tópico",
+              "dosis": "1 aplicación/día",
+              "duracionDias": 10
+            }
+          }
+        ]
+      },
+      {
+        "id": 103,
+        "nombre": "David Beltrán",
+        "fechaNacimiento": "1998-08-03",
+        "seguro": {
+          "compania": "Sanitas",
+          "numeroPoliza": "SN-112233"
+        },
+        "alergias": ["Polen", "Aspirina"],
+        "historial": [
+          {
+            "fecha": "2026-03-20",
+            "diagnostico": "Lumbalgia aguda",
+            "tratamiento": {
+              "medicamento": "Paracetamol",
+              "dosis": "1g",
+              "duracionDias": 4
+            }
+          }
+        ]
+      }
+    ],
+    "citas": [
+      {
+        "id": 1001,
+        "pacienteId": 101,
+        "medicoId": 1,
+        "fecha": "2026-10-15T09:00:00",
+        "confirmada": true,
+        "notas": "Revisión anual de rutina"
+      },
+      {
+        "id": 1002,
+        "pacienteId": 102,
+        "medicoId": 2,
+        "fecha": "2026-10-15T10:00:00",
+        "confirmada": true,
+        "notas": null
+      },
+      {
+        "id": 1003,
+        "pacienteId": 103,
+        "medicoId": 3,
+        "fecha": "2026-10-16T11:30:00",
+        "confirmada": false,
+        "notas": "Primera consulta de dermatología"
+      },
+      {
+        "id": 1004,
+        "pacienteId": 102,
+        "medicoId": 1,
+        "fecha": "2026-10-17T16:00:00",
+        "confirmada": true,
+        "notas": null
+      },
+      {
+        "id": 1005,
+        "pacienteId": 101,
+        "medicoId": 2,
+        "fecha": "2026-10-18T17:30:00",
+        "confirmada": false,
+        "notas": "Molestia en la rodilla"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+1. ¿Qué tipo de dato tiene precio?
+Es de tipo texto (String), porque el valor "1200" está escrito entre comillas.
+2.¿Qué tipo de dato tiene stock?
+Es de tipo número (Number / Integer), porque el valor 15 está escrito sin comillas.
+3.¿Son del mismo tipo?
+No, no son del mismo tipo (precio es un string y stock es un número).
+4.Modifica el JSON para que precio sea un número en lugar de texto.
+
+{
+  "producto": "Ordenador",
+  "precio": 1200,
+  "stock": 15
+}

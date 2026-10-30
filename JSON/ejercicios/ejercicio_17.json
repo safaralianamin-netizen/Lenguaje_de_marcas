@@ -1,0 +1,155 @@
+{
+  "academia": {
+    "nombre": "Digitech FP",
+    "fundacion": 2018,
+    "sede": {
+      "ciudad": "Valencia",
+      "pais": "España",
+      "coordenadas": {
+        "lat": 39.4699,
+        "lng": -0.3763
+      }
+    },
+    "cursos": [
+      {
+        "codigo": "DEV-01",
+        "titulo": "Desarrollo de Aplicaciones Web",
+        "profesor": {
+          "nombre": "Alejandro Martínez",
+          "especialidades": [
+            "JavaScript",
+            "HTML/CSS",
+            "JSON"
+          ],
+          "contacto": {
+            "email": "alejandro@digitech.com",
+            "telefono": "+34 961 111 222"
+          }
+        },
+        "horario": [
+          {
+            "dia": "Lunes",
+            "inicio": "09:00",
+            "fin": "13:00"
+          },
+          {
+            "dia": "Miércoles",
+            "inicio": "09:00",
+            "fin": "13:00"
+          }
+        ],
+        "alumnos": [
+          {
+            "nombre": "Carlos Gómez",
+            "activo": true,
+            "notas": [8.5, 9.0, 7.5],
+            "notaFinal": 8.3
+          },
+          {
+            "nombre": "Lucía Pérez",
+            "activo": true,
+            "notas": [9.0, 9.5, 10.0],
+            "notaFinal": 9.5
+          },
+          {
+            "nombre": "David Sanz",
+            "activo": true,
+            "notas": [6.0, 7.0],
+            "notaFinal": null
+          }
+        ]
+      },
+      {
+        "codigo": "SYS-02",
+        "titulo": "Administración de Sistemas Informáticos",
+        "profesor": {
+          "nombre": "Marta Fernández",
+          "especialidades": [
+            "Linux",
+            "Redes",
+            "Seguridad"
+          ],
+          "contacto": {
+            "email": "marta@digitech.com",
+            "telefono": "+34 961 111 223"
+          }
+        },
+        "horario": [
+          {
+            "dia": "Martes",
+            "inicio": "15:00",
+            "fin": "19:00"
+          },
+          {
+            "dia": "Jueves",
+            "inicio": "15:00",
+            "fin": "19:00"
+          }
+        ],
+        "alumnos": [
+          {
+            "nombre": "Elena Torres",
+            "activo": true,
+            "notas": [7.0, 8.0, 8.5],
+            "notaFinal": 7.8
+          },
+          {
+            "nombre": "Javier Ramos",
+            "activo": false,
+            "notas": [4.0],
+            "notaFinal": null
+          },
+          {
+            "nombre": "Sofia Marín",
+            "activo": true,
+            "notas": [8.0, 8.0, 9.0],
+            "notaFinal": 8.3
+          }
+        ]
+      },
+      {
+        "codigo": "DAT-03",
+        "titulo": "Análisis de Datos y Big Data",
+        "profesor": {
+          "nombre": "Roberto Navarro",
+          "especialidades": [
+            "Python",
+            "SQL",
+            "Machine Learning"
+          ],
+          "contacto": {
+            "email": "roberto@digitech.com",
+            "telefono": "+34 961 111 224"
+          }
+        },
+        "horario": [
+          {
+            "dia": "Viernes",
+            "inicio": "09:00",
+            "fin": "14:00"
+          }
+        ],
+        "alumnos": [
+          {
+            "nombre": "Pablo Gil",
+            "activo": true,
+            "notas": [9.5, 9.0, 9.5],
+            "notaFinal": 9.3
+          },
+          {
+            "nombre": "Carmen Vidal",
+            "activo": true,
+            "notas": [8.0, 7.5, 8.0],
+            "notaFinal": 7.8
+          },
+          {
+            "nombre": "Hugo López",
+            "activo": true,
+            "notas": [],
+            "notaFinal": null
+          }
+        ]
+      }
+    ]
+  }
+}
